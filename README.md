@@ -51,7 +51,7 @@ After you're finished please remove all the comments and instructions!
 # 📖 [Rails Backend & Frontend] <a name="about-project"></a>
 
 
-> Describe your project in 1 or 2 sentences.
+> In this project, I set up a 'Hello world' project as one app with rails-react-Webpack
 
 **[your_project__name]** is a...
 
@@ -146,7 +146,10 @@ Example command:
 
 ```sh
   cd my-project
-  gem install
+  bundle install
+  rails db:create db:migrate db:seed
+  yarn install
+  yarn build
 ```
 --->
 
@@ -158,7 +161,7 @@ To run the project, execute the following command:
 Example command:
 
 ```sh
-  rails server
+    ./bin/dev
 ```
 --->
 
@@ -174,17 +177,6 @@ Example command:
 ```
 --->
 
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
