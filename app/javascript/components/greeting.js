@@ -14,7 +14,7 @@ const Greeting = () => {
   return (
     <>
       <h1>Hello guys </h1>
-      <p>This is the generated message </p>
+      <p>This is the generated message : </p>
       <p>{state.id}</p>
       <p>{state.content}</p>
       <button type="button" onClick={handleMsg}>Click to get a random message</button>
