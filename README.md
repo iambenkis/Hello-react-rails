@@ -132,7 +132,7 @@ Clone this repository to your desired folder:
 Example commands:
 
 ```sh
-  cd my-folder
+  cd my-folder...
   git clone https://github.com/iambenkis/Hello-react-rails.git
 ```
 --->
